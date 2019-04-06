@@ -1,5 +1,5 @@
 
-<b><b1>How to create a Bot in Telegram</b1><br>
+<b><b1>How to create a Bot in Telegram</b1></b><br>
 1. In Telegram open a chat with @BotFather<br>
 2. Send a command "/newbot"<br>
 3. Write name's bot<br>
