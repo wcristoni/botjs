@@ -1,0 +1,19 @@
+{
+  "name": "botjs",
+  "version": "1.0.0",
+  "description": "An Simple Bot for Telegram in NodeJs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test":"\"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "keywords": [
+    "Bot",
+    "Telegram"
+  ],
+  "author": "Wilson Cristoni Neto",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.30.0"
+  }
+}
