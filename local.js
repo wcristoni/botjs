@@ -2,7 +2,7 @@ const TelegramBot = require('node-telegram-bot-api');
 const TOKEN = require('./config/token');
 const bot = new TelegramBot(TOKEN, {polling: true});
 
-let debug_mode = false;
+let debug_mode = true;
 
 bot.on('message', (msg) => {
 
@@ -16,6 +16,11 @@ bot.on('message', (msg) => {
     if ( ajustarTexto(msg.text, "/oi") ){
         bot.sendMessage(msg.chat.id,functionOi(msg.from.first_name));
     }
+
+    if ( ajustarTexto(msg.text, "/url") ){
+        bot.sendMessage(msg.chat.id,functionGuardarURL(msg.text),functionTagOption());
+    }
+    
         
 });
 
@@ -30,6 +35,14 @@ function functionAjuda() {
 function functionOi(usuario) {
     return "Oi " + usuario + ", em que posso lhe ajudar?"; 
 } 
+
+function functionGuardarURL(valor){
+    return "url: " + valor + " armazenada.";
+}
+
+function functionTagOption(){
+    return {"reply_markup": {"keyboard": [["Op. 1", "Op 2."],  ["Nenhuma delas"]]}}
+}
 
 function ajustarTexto(msgOriginal, comando) {
     return (msgOriginal.toString().toLowerCase().indexOf(comando) === 0); 

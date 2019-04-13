@@ -1,0 +1,44 @@
+{
+  "urls": [
+    {
+      "url": "www.uol.com.br",
+      "tags": [
+        "Notícias",
+        "Esportes",
+        "Economia"
+      ],
+      "usuario": "Wilson Cristoni"
+    },
+    [
+      {
+        "url": "www.g1.com.br",
+        "tags": [
+          "Notícias",
+          "Esportes",
+          "Economia"
+        ],
+        "usuario": "Wilson Cristoni"
+      }
+    ],
+    [
+      {
+        "url": "www.itau.com.br",
+        "tags": [
+          "Banco",
+          "Investimentos"
+        ],
+        "usuario": "Wilson Cristoni"
+      }
+    ],
+    [
+      {
+        "url": "www.soujava.com.br",
+        "tags": [
+          "/desenvolvimento",
+          "tecnologia"
+        ],
+        "usuario": "Wilson Cristoni"
+      }
+    ]
+  ]
+}
