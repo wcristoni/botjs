@@ -7,10 +7,9 @@ var path = require('path')
 require('babel-polyfill')
 require('babel-register')
 
-// var TOKEN = '893259487:AAEqtZZ2z_wXRcR8x9CUPcBUruTXxCehWIU'
-//var bot = new Bot(TOKEN)
+const TOKEN = require('./config/token');
 
 var Bot = require('./src/bot').default
-var bot = new Bot(process.env.BOT_TOKEN)
+var bot = new Bot(TOKEN)
 
 bot.start()

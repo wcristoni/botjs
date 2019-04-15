@@ -17,5 +17,9 @@
 
 <b><b1>What does this bot do?</b1></b><br>
 The first version attend only two commands:<br><br>
-'/oi' - is a like 'Hello' but in Portuguese<br>
-'/ajuda'- is a like 'Help' but in Portuguese<br>
+'/url' - for save a new url<br>
+'/stop'- for exit<br>
+
+<b><b1>How this bot works?</b1></b><br>
+This bot are using State Machine as shown in the image below:<br>
+<img src="./img/maquina.png">
