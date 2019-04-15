@@ -1,0 +1,34 @@
+{
+  "urls": [
+    {
+      "body": {
+        "url": "www.teste.com.br",
+        "tags": [
+          "tag1",
+          "tag2"
+        ],
+        "usuario": "User1"
+      }
+    },
+    {
+      "url": "www.teste.com.br",
+      "tags": [
+        "tag1",
+        "tag2"
+      ],
+      "usuario": "User2"
+    },
+    {
+      "urls": [
+        {
+          "url": "www.mock.com.br",
+          "tags": [
+            "t1",
+            "t2"
+          ],
+          "usuario": "Mock"
+        }
+      ]
+    }
+  ]
+}
